@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Solucao
 {
-    protected class Menu
+    public class Menu
     {
         /// <summary>
         /// Classe Responsável por Gerenciar o Menu e suas Opções
@@ -17,9 +17,9 @@ namespace Solucao
         /// </summary>
         String cmd;
         /// <summary>
-        /// Armazena a lista de opções
+        /// Armazena a lista de opções do Menu Principal
         /// </summary>
-        StringBuilder opcoesMenu = new StringBuilder();
+        StringBuilder opcoesMenuPrincipal = new StringBuilder();
         #endregion
 
         /// <summary>
@@ -27,13 +27,13 @@ namespace Solucao
         /// </summary>
         public Menu()
         {
-            opcoesMenu.Append("############################################# Menu Principal #################################################\n");
-            opcoesMenu.Append("#                                                                                                            #\n");
-            opcoesMenu.Append("# (1)                                                                                       #\n");
-            opcoesMenu.Append("# (2)                                                                                  #\n");
-            opcoesMenu.Append("# (0) Sair                                                                                                   #\n");
-            opcoesMenu.Append("#                                                                                                            #\n");
-            opcoesMenu.Append("##############################################################################################################\nDigite sua opção: ");
+            opcoesMenuPrincipal.Append("############################################# Menu Principal #################################################\n");
+            opcoesMenuPrincipal.Append("#                                                                                                            #\n");
+            opcoesMenuPrincipal.Append("# (1)                                                                                       #\n");
+            opcoesMenuPrincipal.Append("# (2)                                                                                  #\n");
+            opcoesMenuPrincipal.Append("# (0) Sair                                                                                                   #\n");
+            opcoesMenuPrincipal.Append("#                                                                                                            #\n");
+            opcoesMenuPrincipal.Append("##############################################################################################################\nDigite sua opção: ");
             apresentarMenu();
         }
 
@@ -42,7 +42,7 @@ namespace Solucao
         /// </summary>
         public void apresentarMenu()
         {
-            Console.Write(opcoesMenu);
+            Console.Write(opcoesMenuPrincipal);
             cmd = Console.ReadLine();
 
             // 
