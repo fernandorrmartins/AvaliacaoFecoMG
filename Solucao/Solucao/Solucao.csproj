@@ -50,10 +50,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Camadas\Dados\Dados.csproj">
-      <Project>{18b23693-bf20-4a7b-88f8-8fe9b8a0798b}</Project>
-      <Name>Dados</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Camadas\Entidade\Entidade.csproj">
       <Project>{32900cef-ca8e-4528-8f70-11ea9f1317d5}</Project>
       <Name>Entidade</Name>

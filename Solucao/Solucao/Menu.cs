@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Solucao
 {
-    class Menu
+    protected class Menu
     {
         /// <summary>
         /// Classe Responsável por Gerenciar o Menu e suas Opções
