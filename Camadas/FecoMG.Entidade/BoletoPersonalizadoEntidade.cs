@@ -11,12 +11,13 @@ namespace FecoMG.Entidade
     /// Classe que representa 'Integração 2 – Boleto de cobrança personalizado'
     /// Herda do Boleto Base Entidade
     /// </summary>
-    class BoletoPersonalizadoEntidade
+    public class BoletoPersonalizadoEntidade : BoletoBaseEntidade
     {
         #region Atributos da Classe
-        public string CapitalSocialEmpresa { get; set; }            // Capital social da empresa
-        public string NumeroFuncionarios { get; set; }              //  Número de funcionários
-        public BoletoPersonalizadoEnum CodigoOperacao { get; set; } // Código da operação - Enumerador que representa as operações
+        public string CapitalSocialEmpresa { get; set; }            // Capital Social da Empresa
+        public string NumeroFuncionarios { get; set; }              // Número de Funcionários
+
+        public BoletoPersonalizadoEnum CodigoOperacao { get; set; } // Código da Operação - Enumerador que representa as operações
         #endregion
     }
 }

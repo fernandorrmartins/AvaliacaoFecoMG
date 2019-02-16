@@ -41,7 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BoletoPadraoNegocio.cs" />
+    <Compile Include="BoletoPersonalizadoNegocio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FecoMG.Dados\FecoMG.Dados.csproj">
+      <Project>{86d9135e-f61b-4d43-bfca-88c45b42c23a}</Project>
+      <Name>FecoMG.Dados</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FecoMG.Entidade\FecoMG.Entidade.csproj">
+      <Project>{b03072ee-4ab4-42c1-8fe8-a66e71b5aa5b}</Project>
+      <Name>FecoMG.Entidade</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -11,7 +11,7 @@ namespace FecoMG.Entidade
     /// Classe que representa 'Integração 1 – Boleto de cobrança padrão'
     /// Herda do Boleto Base Entidade
     /// </summary>
-    class BoletoPadraoEntidade : BoletoBaseEntidade
+    public class BoletoPadraoEntidade : BoletoBaseEntidade
     {
         #region Atributos da Classe
         public BoletoPadraoEnum CodigoOperacao { get; set; }    // Código da operação - Enumerador que representa as operações

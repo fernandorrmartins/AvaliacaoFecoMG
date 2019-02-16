@@ -14,7 +14,7 @@ namespace FecoMG.Enumerador
         Incluir = 02,
 
         [Description("Modificar")]
-        Alterar = 01,
+        Modificar = 01,
 
         [Description("Baixar")]
         Baixar = 04,

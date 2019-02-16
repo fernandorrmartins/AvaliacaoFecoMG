@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FecoMG.Projecao", "FecoMG.P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FecoMG.Seguranca", "FecoMG.Seguranca\FecoMG.Seguranca.csproj", "{ADE5C971-2A5A-422B-BDEB-D2915DD8B6CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "..\API\API.csproj", "{3167B211-35EC-4EF3-BB4E-CC6D86584B5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{ADE5C971-2A5A-422B-BDEB-D2915DD8B6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADE5C971-2A5A-422B-BDEB-D2915DD8B6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADE5C971-2A5A-422B-BDEB-D2915DD8B6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3167B211-35EC-4EF3-BB4E-CC6D86584B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3167B211-35EC-4EF3-BB4E-CC6D86584B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3167B211-35EC-4EF3-BB4E-CC6D86584B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3167B211-35EC-4EF3-BB4E-CC6D86584B5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,7 +9,7 @@ namespace FecoMG.Entidade
     /// <summary>
     /// Classe Base com todos Atributos presentes em ambos os Boletos
     /// </summary>
-    class BoletoBaseEntidade
+    public class BoletoBaseEntidade
     {
         #region Atributos da Classe
         public string NumeroDocumento { get; set; } // Número do Documento
@@ -19,6 +19,8 @@ namespace FecoMG.Entidade
         public string NossoNumero { get; set; }     // Nosso número
         public string LinhaDigitavel { get; set; }  // Linha digitável
         public string DataVencimento { get; set; }  // Data de vencimento
+
+        public bool Baixado { get; set; }           // Representação se o boleto esta baixado ou não
         #endregion
     }
 }
