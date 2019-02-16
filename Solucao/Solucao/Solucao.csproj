@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{97F1F006-B70B-4C8F-8BBC-64577473BAD0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Solucao</RootNamespace>
+    <AssemblyName>Solucao</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Camadas\Dados\Dados.csproj">
+      <Project>{18b23693-bf20-4a7b-88f8-8fe9b8a0798b}</Project>
+      <Name>Dados</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Camadas\Entidade\Entidade.csproj">
+      <Project>{32900cef-ca8e-4528-8f70-11ea9f1317d5}</Project>
+      <Name>Entidade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Camadas\Enumerador\Enumerador.csproj">
+      <Project>{f3ac48cc-15b8-4c61-ac15-01fe6d7eba1e}</Project>
+      <Name>Enumerador</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Camadas\Filtro\Filtro.csproj">
+      <Project>{a4375299-9ed2-4f9a-9663-08c3fd92e0e4}</Project>
+      <Name>Filtro</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Camadas\Negocio\Negocio.csproj">
+      <Project>{08560cbd-708b-48a6-b06b-094b20ef8d28}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Camadas\Projecao\Projecao.csproj">
+      <Project>{c458b0fc-b9a7-4726-8eb1-7b2ccc84dde0}</Project>
+      <Name>Projecao</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Camadas\Seguranca\Seguranca.csproj">
+      <Project>{8e41361b-bc93-4710-8be9-b4cf0de36f44}</Project>
+      <Name>Seguranca</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Camadas\Utilitario\Utilitario.csproj">
+      <Project>{30d2b253-828b-403e-bbdb-ee9ca29e1038}</Project>
+      <Name>Utilitario</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
