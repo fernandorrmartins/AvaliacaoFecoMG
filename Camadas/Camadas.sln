@@ -5,21 +5,21 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solucao", "..\Solucao\Solucao\Solucao.csproj", "{97F1F006-B70B-4C8F-8BBC-64577473BAD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FecoMG.Dados", "Dados\FecoMG.Dados.csproj", "{86D9135E-F61B-4D43-BFCA-88C45B42C23A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FecoMG.Entidade", "Entidade\FecoMG.Entidade.csproj", "{B03072EE-4AB4-42C1-8FE8-A66E71B5AA5B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FecoMG.Negocio", "Negocio\FecoMG.Negocio.csproj", "{14439007-9989-46D7-9610-FADA23A20DC3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FecoMG.Enumerador", "Enumerador\FecoMG.Enumerador.csproj", "{4D2A8B03-455B-4EEF-B410-6301B8EB19FC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FecoMG.Filtro", "Filtro\FecoMG.Filtro.csproj", "{713D6B1D-3DC4-4EB1-99C7-AD08CAB28C55}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FecoMG.Projecao", "Projecao\FecoMG.Projecao.csproj", "{105497F6-746D-440A-97AF-C65DB71FA5B3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FecoMG.Seguranca", "Seguranca\FecoMG.Seguranca.csproj", "{ADE5C971-2A5A-422B-BDEB-D2915DD8B6CE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FecoMG.Utilitario", "FecoMG.Utilitario\FecoMG.Utilitario.csproj", "{2B0B9DEB-3F61-49A9-89C4-31D43AA09A06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FecoMG.Dados", "FecoMG.Dados\FecoMG.Dados.csproj", "{86D9135E-F61B-4D43-BFCA-88C45B42C23A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FecoMG.Entidade", "FecoMG.Entidade\FecoMG.Entidade.csproj", "{B03072EE-4AB4-42C1-8FE8-A66E71B5AA5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FecoMG.Enumerador", "FecoMG.Enumerador\FecoMG.Enumerador.csproj", "{4D2A8B03-455B-4EEF-B410-6301B8EB19FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FecoMG.Filtro", "FecoMG.Filtro\FecoMG.Filtro.csproj", "{713D6B1D-3DC4-4EB1-99C7-AD08CAB28C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FecoMG.Negocio", "FecoMG.Negocio\FecoMG.Negocio.csproj", "{14439007-9989-46D7-9610-FADA23A20DC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FecoMG.Projecao", "FecoMG.Projecao\FecoMG.Projecao.csproj", "{105497F6-746D-440A-97AF-C65DB71FA5B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FecoMG.Seguranca", "FecoMG.Seguranca\FecoMG.Seguranca.csproj", "{ADE5C971-2A5A-422B-BDEB-D2915DD8B6CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +31,10 @@ Global
 		{97F1F006-B70B-4C8F-8BBC-64577473BAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97F1F006-B70B-4C8F-8BBC-64577473BAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97F1F006-B70B-4C8F-8BBC-64577473BAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B0B9DEB-3F61-49A9-89C4-31D43AA09A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B0B9DEB-3F61-49A9-89C4-31D43AA09A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B0B9DEB-3F61-49A9-89C4-31D43AA09A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B0B9DEB-3F61-49A9-89C4-31D43AA09A06}.Release|Any CPU.Build.0 = Release|Any CPU
 		{86D9135E-F61B-4D43-BFCA-88C45B42C23A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{86D9135E-F61B-4D43-BFCA-88C45B42C23A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86D9135E-F61B-4D43-BFCA-88C45B42C23A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,10 +43,6 @@ Global
 		{B03072EE-4AB4-42C1-8FE8-A66E71B5AA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B03072EE-4AB4-42C1-8FE8-A66E71B5AA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B03072EE-4AB4-42C1-8FE8-A66E71B5AA5B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{14439007-9989-46D7-9610-FADA23A20DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14439007-9989-46D7-9610-FADA23A20DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14439007-9989-46D7-9610-FADA23A20DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14439007-9989-46D7-9610-FADA23A20DC3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4D2A8B03-455B-4EEF-B410-6301B8EB19FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4D2A8B03-455B-4EEF-B410-6301B8EB19FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D2A8B03-455B-4EEF-B410-6301B8EB19FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +51,10 @@ Global
 		{713D6B1D-3DC4-4EB1-99C7-AD08CAB28C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{713D6B1D-3DC4-4EB1-99C7-AD08CAB28C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{713D6B1D-3DC4-4EB1-99C7-AD08CAB28C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14439007-9989-46D7-9610-FADA23A20DC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14439007-9989-46D7-9610-FADA23A20DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14439007-9989-46D7-9610-FADA23A20DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14439007-9989-46D7-9610-FADA23A20DC3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{105497F6-746D-440A-97AF-C65DB71FA5B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{105497F6-746D-440A-97AF-C65DB71FA5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{105497F6-746D-440A-97AF-C65DB71FA5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -59,10 +63,6 @@ Global
 		{ADE5C971-2A5A-422B-BDEB-D2915DD8B6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADE5C971-2A5A-422B-BDEB-D2915DD8B6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADE5C971-2A5A-422B-BDEB-D2915DD8B6CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B0B9DEB-3F61-49A9-89C4-31D43AA09A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B0B9DEB-3F61-49A9-89C4-31D43AA09A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B0B9DEB-3F61-49A9-89C4-31D43AA09A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B0B9DEB-3F61-49A9-89C4-31D43AA09A06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
