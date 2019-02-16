@@ -100,7 +100,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="SubirEventoController.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Camadas\FecoMG.Dados\FecoMG.Dados.csproj">
