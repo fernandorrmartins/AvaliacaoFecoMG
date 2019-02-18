@@ -61,7 +61,7 @@ namespace FecoMG.Dados
         {
             try
             {
-                return ConectarApiPost("api/Boleto/Consultar", boleto);
+                return ConectarApiPost("api/BoletoPadraoBaixarConsultar/Consultar", boleto);
             } catch(Exception e)
             {
                 Utilitario.Ultilitario.MensagemErro(e.Message);
@@ -78,7 +78,7 @@ namespace FecoMG.Dados
         {
             try
             {
-                return ConectarApiPost("api/Boleto/Baixar", boleto);
+                return ConectarApiPost("api/BoletoPadraoBaixarConsultar/Baixar", boleto);
             }
             catch (Exception e)
             {
@@ -96,7 +96,7 @@ namespace FecoMG.Dados
         {
             try
             {
-                return ConectarApiPost("api/Boleto/Alterar", boleto);
+                return ConectarApiPost("api/BoletoPadraoIncluirAlterar/Alterar", boleto);
             }
             catch (Exception e)
             {
@@ -114,7 +114,7 @@ namespace FecoMG.Dados
         {
             try
             {
-                return ConectarApiPost("api/Boleto/Incluir", boleto);
+                return ConectarApiPost("api/BoletoPadraoIncluirAlterar/Incluir", boleto);
             }
             catch (Exception e)
             {
@@ -174,7 +174,7 @@ namespace FecoMG.Dados
         {
             try
             {
-                return ConectarApiPost("api/Boleto/Consultar", boleto);
+                return ConectarApiPost("api/BoletoPersonalizadoBaixarConsultar/Consultar", boleto);
             }
             catch (Exception e)
             {
@@ -192,7 +192,8 @@ namespace FecoMG.Dados
         {
             try
             {
-                return ConectarApiPost("api/Boleto/Baixar", boleto);
+
+                return ConectarApiPost("api/BoletoPersonalizadoBaixarConsultar/Baixar", boleto);
             }
             catch (Exception e)
             {
@@ -206,11 +207,11 @@ namespace FecoMG.Dados
         /// </summary>
         /// <param name="boleto">Recebe um BoletoPersonalizadoEntidade como parâmetro</param>
         /// <returns></returns>
-        public bool AlterarBoleto(BoletoPersonalizadoEntidade boleto)
+        public bool ModificarBoleto(BoletoPersonalizadoEntidade boleto)
         {
             try
             {
-                return ConectarApiPost("api/Boleto/Alterar", boleto);
+                return ConectarApiPost("api/BoletoPersonalizadoIncluirModificar/Modificar", boleto);
             }
             catch (Exception e)
             {
@@ -228,7 +229,7 @@ namespace FecoMG.Dados
         {
             try
             {
-                return ConectarApiPost("api/Boleto/Incluir", boleto);
+                return ConectarApiPost("api/BoletoPersonalizadoIncluirModificar/Incluir", boleto);
             }
             catch (Exception e)
             {

@@ -109,21 +109,29 @@ namespace Solucao
                     case "1":
                         if (IncluirBoleto(boleto))
                             Console.WriteLine("Solicitação efetuada com sucesso!");
-                        cmd = "0";
                         Console.ReadKey();
                         Console.Clear();
+                        cmd = "0";
                         break;
                     case "2":
                         if (AlterarBoleto(boleto))
                             Console.WriteLine("Solicitação efetuada com sucesso!");
+                        Console.ReadKey();
+                        Console.Clear();
+                        cmd = "0";
                         break;
                     case "3":
                         if (BaixarBoleto(boleto))
                             Console.WriteLine("Solicitação efetuada com sucesso!");
+                        Console.ReadKey();
+                        Console.Clear();
+                        cmd = "0";
                         break;
                     case "4":
                         if (ConsultarBoleto(boleto))
                             Console.WriteLine("Solicitação efetuada com sucesso!");
+                        Console.ReadKey();
+                        Console.Clear();
                         cmd = "0";
                         Console.Clear();
                         break;
@@ -162,6 +170,7 @@ namespace Solucao
 
             // Define o Tipo de Operação
             boleto.CodigoOperacao = FecoMG.Enumerador.BoletoPadraoEnum.Incluir;
+            Console.Clear();
 
             return new BoletoNegocio().IncluirBoleto(boleto);
         }
@@ -190,6 +199,7 @@ namespace Solucao
 
             // Define o Tipo de Operação
             boleto.CodigoOperacao = FecoMG.Enumerador.BoletoPadraoEnum.Alterar;
+            Console.Clear();
 
             return new BoletoNegocio().AlterarBoleto(boleto);
         }
@@ -207,6 +217,7 @@ namespace Solucao
 
             // Define o Tipo de Operação
             boleto.CodigoOperacao = FecoMG.Enumerador.BoletoPadraoEnum.Baixar;
+            Console.Clear();
 
             return new BoletoNegocio().BaixarBoleto(boleto);
         }
@@ -224,6 +235,7 @@ namespace Solucao
 
             // Define o Tipo de Operação
             boleto.CodigoOperacao = FecoMG.Enumerador.BoletoPadraoEnum.Consultar;
+            Console.Clear();
 
             return new BoletoNegocio().BaixarBoleto(boleto);
         }
@@ -257,21 +269,29 @@ namespace Solucao
                     case "1":
                         if (IncluirBoleto(boleto))
                             Console.WriteLine("Solicitação efetuada com sucesso!");
-                        cmd = "0";
                         Console.ReadKey();
                         Console.Clear();
+                        cmd = "0";
                         break;
                     case "2":
-                        if (AlterarBoleto(boleto))
+                        if (ModificarBoleto(boleto))
                             Console.WriteLine("Solicitação efetuada com sucesso!");
+                        Console.ReadKey();
+                        Console.Clear();
+                        cmd = "0";
                         break;
                     case "3":
                         if (BaixarBoleto(boleto))
                             Console.WriteLine("Solicitação efetuada com sucesso!");
+                        Console.ReadKey();
+                        Console.Clear();
+                        cmd = "0";
                         break;
                     case "4":
                         if (ConsultarBoleto(boleto))
                             Console.WriteLine("Solicitação efetuada com sucesso!");
+                        Console.ReadKey();
+                        Console.Clear();
                         cmd = "0";
                         Console.Clear();
                         break;
@@ -310,6 +330,7 @@ namespace Solucao
 
             // Define o Tipo de Operação
             boleto.CodigoOperacao = FecoMG.Enumerador.BoletoPersonalizadoEnum.Incluir;
+            Console.Clear();
 
             return new BoletoNegocio().IncluirBoleto(boleto);
         }
@@ -318,7 +339,7 @@ namespace Solucao
         /// Método para Alterar boleto presonalizado
         /// </summary>
         /// <returns></returns>
-        public bool AlterarBoleto(BoletoPersonalizadoEntidade boleto)
+        public bool ModificarBoleto(BoletoPersonalizadoEntidade boleto)
         {
             // Interação com Usuário
             Console.Write("Número do Documento a ser alterado: ");
@@ -344,8 +365,9 @@ namespace Solucao
 
             // Define o Tipo de Operação
             boleto.CodigoOperacao = FecoMG.Enumerador.BoletoPersonalizadoEnum.Modificar;
+            Console.Clear();
 
-            return new BoletoNegocio().AlterarBoleto(boleto);
+            return new BoletoNegocio().ModificarBoleto(boleto);
         }
 
         /// <summary>
@@ -361,6 +383,7 @@ namespace Solucao
 
             // Define o Tipo de Operação
             boleto.CodigoOperacao = FecoMG.Enumerador.BoletoPersonalizadoEnum.Baixar;
+            Console.Clear();
 
             return new BoletoNegocio().BaixarBoleto(boleto);
         }
@@ -378,6 +401,7 @@ namespace Solucao
 
             // Define o Tipo de Operação
             boleto.CodigoOperacao = FecoMG.Enumerador.BoletoPersonalizadoEnum.Consultar;
+            Console.Clear();
 
             return new BoletoNegocio().BaixarBoleto(boleto);
         }

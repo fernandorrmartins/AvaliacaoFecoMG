@@ -57,7 +57,7 @@ namespace FecoMG.Negocio
         }
         #endregion
 
-        #region Boleto Padrão
+        #region Boleto Personalizado
         /// <summary>
         /// Função responsável por incluir um boleto na base de dados
         /// </summary>
@@ -73,9 +73,9 @@ namespace FecoMG.Negocio
         /// </summary>
         /// <param name="boleto">Recebe um BoletoPersonalizadoEntidade como parâmetro</param>
         /// <returns></returns>
-        public bool AlterarBoleto(BoletoPersonalizadoEntidade boleto)
+        public bool ModificarBoleto(BoletoPersonalizadoEntidade boleto)
         {
-            return boletoDados.AlterarBoleto(boleto);
+            return boletoDados.ModificarBoleto(boleto);
         }
 
         /// <summary>
